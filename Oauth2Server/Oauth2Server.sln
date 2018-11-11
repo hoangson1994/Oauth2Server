@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oauth2Server", "Oauth2Server\Oauth2Server.csproj", "{A76F2F39-1429-45FB-B457-7D4214CE03B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordHandle", "..\OauthDemo\PasswordHandle\PasswordHandle.csproj", "{DE4EDB61-5CCC-4F6F-9A2C-B23E64CF3128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A76F2F39-1429-45FB-B457-7D4214CE03B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76F2F39-1429-45FB-B457-7D4214CE03B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76F2F39-1429-45FB-B457-7D4214CE03B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76F2F39-1429-45FB-B457-7D4214CE03B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4EDB61-5CCC-4F6F-9A2C-B23E64CF3128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4EDB61-5CCC-4F6F-9A2C-B23E64CF3128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4EDB61-5CCC-4F6F-9A2C-B23E64CF3128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4EDB61-5CCC-4F6F-9A2C-B23E64CF3128}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7530CA5E-A14A-42B3-94BC-E96A076EF86A}
+	EndGlobalSection
+EndGlobal

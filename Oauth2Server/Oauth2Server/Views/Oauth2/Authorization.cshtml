@@ -1,0 +1,32 @@
+﻿@model Oauth2Server.Models.AuthorizationInformation
+@{
+    ViewData["Title"] = "Authorization";
+}
+
+<div class="row">
+    <div class="img-thumbnail">
+        <img src="@Model.RegisteredClient.ClientIcon" alt="@Model.RegisteredClient.ClientName" />
+    </div>
+    <div class="text-capitalize">
+        @Model.RegisteredClient.ClientName
+    </div>    
+</div>
+<div class="row">
+    This app would like to:
+</div>
+<div class="row">
+    <ul>
+        @foreach (var scope in @Model.Oauth2Scopes) 
+        {
+            <li>
+                <img src="@scope.Value.Icon" alt="Alternate Text" class="img-thumbnail"/>
+                <span>@scope.Value.Description</span>
+            </li>
+        }        
+    </ul>
+</div>
+<div class="row">
+    <button class="btn btn-default">Cancel</button>
+    <button class="btn btn-default">Accept</button>
+</div>
+
